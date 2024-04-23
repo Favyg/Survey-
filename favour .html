@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body style="background-color:grey;">
+    <h1 align="center">Survey Form</h1>
+    <form action="mailto:akandedoercas4christ@gmail.com" method="post" enctype="text/plain">
+        <Label for="name"> Enter your name:</Label>
+        <input type="text" name="name" id="name"> <br>
+        <label for="email"> Email:</label>
+        <input type="email" name="Email" id="email"> <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age"> <br>
+        <label for="occupation">Occupation:</label>
+        <input type="text" name="occupation" id="occupation">.<br>
+        <p> How did you hear about us?</p>
+        <input type="radio" name="advertisement" id="advertisement">
+        <label for="advertisement">advertisement</label> <br>
+        <input type="radio" name="word of mouth" id="word of mouth">
+        <label for="word of mouth">Word of mouth</label> <br>
+        <input type="radio" name="social media" id="social media">
+        <label for="radio">social media</label><br>
+        <p>Are you Satisfied with our services?</p>
+        <input type="radio" name="Satisfied_yes" id="Satisfied_yes">
+        <label for="Satisfied_yes">Yes</label> <br>
+        <input type="radio" name="satisfied_no" id="satisfied_no">
+        <label for="satisfied_no">No</label> <br>
+        <p>Which of the following features do you use most frequently?</p>
+        <input type="checkbox" name="features" id="features">
+        <Label for="features">Feature A</Label> <br>
+        <input type="checkbox" name="features" id="features">
+        <label for="features">Feature B</label> <br>
+        <input type="checkbox" name="features" id="features">
+        <label for="features">Feature C</label> <br>
+        <label for="category">what is your favourite category?</label>
+        <select id="category" name="category">
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+        <option value="books">Books</option>
+        </select> <br>
+        <label for="feedback">Additional feedback or comments:</label>
+        <textarea id="feedback" name="feedback" rows="10" cols="30"></textarea><br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+    
+</body>
+</html>
